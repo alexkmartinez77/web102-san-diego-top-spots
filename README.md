@@ -1,6 +1,6 @@
 <p align="middle">
-  <img src="./images/sdTopSpotsApp1.png" width="400" />
-  <img src="./images/sdTopSpotsApp2.png" width="400" /> 
+  <img src="./images/sdTopSpotsApp1.png" height="500"/>
+  <img src="./images/sdTopSpotsApp2.png" height="500"/> 
 </p>
 
 # San Diego Top spots App
