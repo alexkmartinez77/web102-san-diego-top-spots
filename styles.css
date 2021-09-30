@@ -16,9 +16,6 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
-    .container{
-        width: 100% !important;
-        }
 
     .responsiveBreak{
         display: none;
@@ -26,9 +23,6 @@
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .container{
-        width: 100% !important;
-        }
 
     .responsiveBreak{
         display: none;
@@ -36,9 +30,7 @@
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .container{
-        width: 100% !important;
-        }
+
     .responsiveBreak{
         
         display: none;
@@ -46,18 +38,13 @@
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .container{
-        width: 100% !important;
-        }
-        
+
     .responsiveBreak{
         display: none;
     }
 }
 
-table{
-    width: 100% !important;
-}
+
 
 th {
     font-size: 1.25em;
