@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     $.getJSON('./data.json', function(data){
       
-        data.forEach(object => {
+        data.reverse().forEach(object => {
 
             $('#topSpotsTable').after('<tr><td class="spotName">' + object.name + '</td>'+ 
                                           '<td class="spotDesc">' + object.description + '</td>'+ 
