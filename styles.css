@@ -4,9 +4,21 @@ table{
 
 th {
     color:red;
-    size: 20px;
+    font-size: 1.5em;
 }
 
-td{
-    width: 33%;
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+.spotLoc{
+    text-align: center;
+}
+
+.spotName, .spotDesc{
+    vertical-align: top;
+}
+
+.spotName {
+    color: blue;
 }
