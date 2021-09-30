@@ -1,6 +1,6 @@
 <p align="middle">
-  <img src="https://alexkmartinez77.github.io/web102-astro-weight-calculator/images/sdTopSpotsApp1.png" width="100" />
-  <img src="https://alexkmartinez77.github.io/web102-astro-weight-calculator/images/sdTopSpotsApp2.png" width="100" /> 
+  <img src="./images/sdTopSpotsApp1.png" width="400" />
+  <img src="./images/sdTopSpotsApp2.png" width="400" /> 
 </p>
 
 # San Diego Top spots App
