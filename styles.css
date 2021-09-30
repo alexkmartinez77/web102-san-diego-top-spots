@@ -1,4 +1,12 @@
+table{
+    width: 100%;
+}
+
 th {
     color:red;
     size: 20px;
+}
+
+td{
+    width: 33%;
 }
