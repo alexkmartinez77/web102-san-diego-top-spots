@@ -2,11 +2,13 @@ $(document).ready(function() {
 
     $.getJSON('./data.json', function(data){
       
-        data.reverse().forEach(object => {
+        data.reverse().forEach(topSpot => {
+            //Destructure each topSpot
+            let {name, description, location:[long, lat]} = topSpot;
 
-            $('#topSpotsTable').after(`<tr><td class="spotName"> ${object.name} </td>
-                                           <td class="spotDesc"> ${object.description} </td>
-                                           <td class="spotLoc"><a href="https://www.google.com/maps?q=${object.location[0]},${object.location[1]}">Map it</a></td></tr>`);
+            $('#topSpotsTable').after(`<tr><td class="spotName"> ${name} </td>
+                                           <td class="spotDesc"> ${description} </td>
+                                           <td class="spotLoc"><a href="https://www.google.com/maps?q=${long},${lat}">Map it</a></td></tr>`);
         });
     }).fail(function(){
         console.log("An error has occurred.");
