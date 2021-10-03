@@ -1,6 +1,6 @@
-$(document).ready(function() {
+$(document).ready(() => {
 
-    $.getJSON('./data.json', function(data){
+    $.getJSON('./data.json', data => {
       
         data.reverse().forEach(topSpot => {
             //Destructure each topSpot
@@ -10,7 +10,7 @@ $(document).ready(function() {
                                            <td class="spotDesc"> ${description} </td>
                                            <td class="spotLoc"><a href="https://www.google.com/maps?q=${long},${lat}">Map it</a></td></tr>`);
         });
-    }).fail(function(){
+    }).fail(() => {
         console.log("An error has occurred.");
     });
 });
