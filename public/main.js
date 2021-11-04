@@ -8,8 +8,8 @@ $(document).ready(() => {
         location: [long, lat],
       } = topSpot;
 
-      $("#topSpotsTable").after(`<tr><td class="spotName"> ${name} </td>
-                                           <td class="spotDesc"> ${description} </td>
+      $("#topSpotsTable").after(`<tr><td class="spotName">${name}</td>
+                                           <td class="spotDesc">${description}</td>
                                            <td class="spotLoc"><a href="https://www.google.com/maps?q=${long},${lat}">Map it</a></td></tr>`);
     });
   }).fail(() => {
