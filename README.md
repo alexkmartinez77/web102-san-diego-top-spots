@@ -40,6 +40,6 @@ location on a map.
 
 ## Live App
 
-This App is now live and can be visited at: https://alexkmartinez77.github.io/web102-san-diego-top-spots/
+This App is now live and can be visited at: https://sdcs-web102-sd-hot-spots.herokuapp.com/
 
 
